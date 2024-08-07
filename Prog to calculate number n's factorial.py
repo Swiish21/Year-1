@@ -1,7 +1,7 @@
 
 def calculate_factorial(number):
     if number < 0:
-        return "Factorial is not defined for negative numbers"
+        return "Factorial is not defined for any negative numbers"
     elif number == 0 or number == 1:
         return 1
     else:
