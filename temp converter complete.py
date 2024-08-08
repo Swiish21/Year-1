@@ -6,7 +6,7 @@ def fahrenheit_to_celcius(fahrenheit):
     return (fahrenheit-32)*5/9
 #This code fetches the user's input on which code(conversion) to run.
 choice = input("Choose conversion type: 1 for C TO F, 2 for F TO C: ")
-#if the user choice is 1 then the first function is run.
+#if the user choice is 1 then the first function is executed.
 if choice == "1":
     celcius_value = float(input("Enter Temp in Celcius: "))
     result = celcius_to_fahrenheit(celcius_value)
