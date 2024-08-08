@@ -1,4 +1,4 @@
-#This first function is a simple math to convert C to F
+#This first function is a simple math to convert C to Farenheit
 def celcius_to_fahrenheit(celcius):
     return (celcius*9/5) + 32
 #This second one does the other conversion F to C
