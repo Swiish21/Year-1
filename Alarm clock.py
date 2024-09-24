@@ -8,5 +8,5 @@ def set_alarm(alarm_time):
             break
         time.sleep(1)
 
-alarm_time = input("Enter the alarm time in HH:MM:SS format: ")
+alarm_time = input("Enter the alarm time in this HH:MM:SS format: ")
 set_alarm(alarm_time)
