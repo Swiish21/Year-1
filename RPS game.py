@@ -1,6 +1,6 @@
 import random
 
-#This function is to get the user choice in the game rps
+#This function is to get the user choice in the game rock paper scissors
 def get_user_choice():
     user_choice = input("Enter Rock, Paper or Scissors: ").lower()
     while user_choice not in ["rock", "paper", "scisssors"]:
