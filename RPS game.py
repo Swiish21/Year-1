@@ -4,7 +4,7 @@ import random
 def get_user_choice():
     user_choice = input("Enter Rock, Paper or Scissors: ").lower()
     while user_choice not in ["rock", "paper", "scisssors"]:
-        print("Did you meann Rock, Paper or Scissors? ")
+        print("Did you mean Rock, Paper or Scissors? ")
         user_choice = input("Enter Rock, Paper or Scissors: ").lower()
     return user_choice
 
