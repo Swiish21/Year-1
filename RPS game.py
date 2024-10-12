@@ -12,7 +12,7 @@ def get_user_choice():
 def get_computer_choice():
     return random.choice(["rock", "paper", "scisssors"])
 
-#This determines the winner btwn the computer and the user
+#This determines the winner between the computer and the user
 def determine_winner(user_choice, computer_choice):
     print(f"You Chose {user_choice}")
     print(f"The computer chose {computer_choice}")
