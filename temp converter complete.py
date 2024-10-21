@@ -16,6 +16,6 @@ elif choice == "2":
     fahrenheit_value = float(input("Enter Temp in Fahrenheit: "))
     result = fahrenheit_to_celcius(fahrenheit_value)
     print(f"{fahrenheit_value} Fahrenheit is equal to {result} Celcius")
-#if the user inputs an answe that is not part of the two options, this code is executed
+#if the user inputs an answer that is not part of the two options, this code is executed
 else:
     print("Invalid choice. Please enter 1 or 2 for conversion type.")
