@@ -10,6 +10,6 @@ def calculate_factorial(number):
             result *= i
         return result
 
-user_input = int(input("Enter a number to calculate its factorial: "))
+user_input = int(input("Enter a number to calculate the factorial: "))
 result = calculate_factorial(user_input)
 print(f"The factorial of {user_input} is: {result}")
